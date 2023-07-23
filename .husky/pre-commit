@@ -1,13 +1,13 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo '🏗️👷 Styling your project before committing👷‍♂️🏗️'
-echo 'please be patient, this may take a while...'
+echo '🏗️👷 Preparing to commit: Styling your project 👷‍♂️🏗️'
+echo 'Please be patient, this process may take a moment...'
 npm run pre-commit-lint
 
-echo '🏗️👷 Check types your project👷‍♂️🏗️'
-echo 'please be patient, this may take a while...'
+echo '\n🏗️👷 Preparing to commit: Checking types in your project 👷‍♂️🏗️'
+echo 'Please be patient, this process may take a moment...'
 npm run check-types
 
-echo '🏗️👷 Check commit message 👷‍♂️🏗️'
-echo 'please be patient, this may take a while...'
+echo '\n🏗️👷 Preparing to commit: Checking commit message format 👷‍♂️🏗️'
+echo 'Please ensure your commit message follows the guidelines.'
