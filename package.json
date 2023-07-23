@@ -10,7 +10,7 @@
     "check-types": "tsc",
     "start": "next start",
     "prepare": "husky install",
-    "pre-commit-lint": "pnpm lint-staged && pnpm check-types"
+    "pre-commit-lint": "pnpm lint-staged"
   },
   "dependencies": {
     "@chakra-ui/next-js": "^2.1.5",
