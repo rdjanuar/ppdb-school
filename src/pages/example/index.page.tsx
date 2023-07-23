@@ -3,7 +3,7 @@ import { Example as ComponentExample } from './component/Example';
 import { useExample } from './hook/useExample';
 
 const Example = () => {
-  const { setState, state } = useExample();
+  const { state } = useExample();
   return <ComponentExample name={state} />;
 };
 
