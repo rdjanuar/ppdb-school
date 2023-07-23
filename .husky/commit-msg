@@ -1,6 +1,8 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+echo '\n🏗️👷 Preparing to commit: Checking commit message format 👷‍♂️🏗️'
+echo 'Please ensure your commit message follows the guidelines.'
 npx --no-install commitlint --edit "$1"
 
 echo '🎉 No error found: committing this now.... ✨🚀🏄‍♂️🍻'

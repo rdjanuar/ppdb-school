@@ -8,6 +8,3 @@ npm run pre-commit-lint
 echo '\n🏗️👷 Preparing to commit: Checking types in your project 👷‍♂️🏗️'
 echo 'Please be patient, this process may take a moment...'
 npm run check-types
-
-echo '\n🏗️👷 Preparing to commit: Checking commit message format 👷‍♂️🏗️'
-echo 'Please ensure your commit message follows the guidelines.'
