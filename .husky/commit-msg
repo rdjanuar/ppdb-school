@@ -2,5 +2,6 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npx --no-install commitlint --edit "$1"
+
 echo '🎉 No error found: committing this now.... ✨🚀🏄‍♂️🍻'
 
